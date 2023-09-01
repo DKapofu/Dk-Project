@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTIFOLIO</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="brand"><img src="img/DK.png" style="width: 50%;"></div>
+    <div class="navbar-links">
+      <div class="dropdown">
+        <button class="dropbutn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+        <div class="dropdown-content">
+          <a href="#Home">Home</a>
+          <a href="#About">About</a>
+          <a href="#Services">Skills & Expertise</a>
+          <a href="#Projects">Projects</a>
+          <a href="#Get in Touch">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="billboard" id="Home">
+    <div class="container">
+      <div class="row">
+        <Div class="col-sm-6 bill">
+          <img src="img/New Macbook Pro Mockup Front View.png" style="width: 160%; height: 120%;">
+        </Div>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div class="container-fluid" id="About">
+      <div class="abo">
+        <h2 class="about">About Me</h2>
+        <div class="row">
+          <div class="col-sm-5 me">
+           <img src="img/Vector.png" style="width: 80%; height: auto;">
+          </div>
+          <div class="col-sm-5 abou">
+          <p>I'm a passionate UI/UX designer with a focus on creating exceptional digital experiences. With a specialization in web design, app design, and UX research, I combine creativity and user-centered design principles to craft intuitive interfaces that engage and delight users.
+            </p>
+             
+            <p> I believe in the power of understanding users' needs and behaviors, which is why I am dedicated to conducting thorough UX research to inform my design decisions.<br> My goal is to create visually appealing designs that not only look great but also enhance usability and provide seamless interactions. Let's work together to create meaningful and impactful digital experiences!</p>
+             <br>
+
+        </div>
+      </div>
+      <div class="com"><a href="https://www.figma.com/proto/ED6tZ9IuomRIn2FNq0obNi/CV?page-id=0%3A1&type=design&node-id=16-2&viewport=240%2C545%2C0.51&t=8RHLmwXqbvlPm6xs-1&scaling=min-zoom&mode=design">View CV</a></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container-fluid" id="Services">
+      <h2 class="service">Skills & Expertise</h2>
+      <div class="serv">
+        <!-- <h3>Hover over the image below:</h3> -->
+        <div class="row">
+          <div class="col-sm-6 UI">
+              <div class="flip-card">
+                  <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                       <img src="img/ui.png" alt="Avatar" style="width:300px;height:300px;">
+                      </div>
+                      <div class="flip-card-back">
+                         <h3>UI Design</h3> 
+                         <p>1.Creating  the visual elements of a software or digital product that users interact with.<br>
+                            2.Creating wireframes, prototypes, and mockups to visualize design concepts<br>
+                            3.Designing the layout, typography, and color scheme of the interface<br>
+                            4.Creating icons, graphics, and other visual elements to enhance the user experience
+                          </p> 
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-6 UX">
+              <div class="flip-card">
+                  <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="img/ux.jpeg" alt="Avatar" style="width:300px;height:300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h3>UX Design</h3> 
+                        <p>1.Designing and enhancing the experience that users have when interacting with a product, such as a website or app.<br>
+                           2.user research to understand the needs, goals, and behaviors of the target audience.<br>
+                          3.Wire-framing.<br>
+                          4.Prototyping.
+                        </p> 
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <div class="container-fluid" id="Projects">
+      <h2 class="pro">Projects</h2>
+      <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> All Projects</button>
+        <button class="btn" onclick="filterSelection('nature')"> UI Design</button>
+        <button class="btn" onclick="filterSelection('cars')"> UX Design</button>
+        <!-- <button class="btn" onclick="filterSelection('people')"> App Design</button> -->
+      </div>
+      <!-- Portfolio Gallery Grid -->
+      <div class="gall">
+        <div class="row">
+          <div class="column nature">
+            <div class="content">
+              <a href=""><img src="img/Red.png" alt="Mountains" style="width:100%"></a>
+            </div>
+          </div>
+          <div class="column nature">
+            <div class="content">
+              <a href=""><img src="img/smoothinc.png" alt="Lights" style="width:100%"></a>
+            </div>
+          </div>
+          <div class="column nature">
+            <div class="content">
+              <a href=""><img src="img/opendoors.png" alt="Nature" style="width:100%"></a>
+            </div>
+          </div>
+        
+        <div class="column cars">
+          <div class="content">
+            <a href=""></a><img src="img/Rectangle 54.png" alt="Car" style="width:100%"></a>
+            
+          </div>
+        </div>
+        <div class="column cars">
+          <div class="content">
+            <a href=""><img src="img/Rectangle 82.png" alt="Car" style="width:90%"></a>
+          </div>
+        </div>
+      <!-- END GRID -->
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container-fluid">
+      <h2 class="tool">Tools</h2>
+      <div class="row">
+        <!-- <div class="tols"> -->
+          <div class="toll">
+            <img src="img/figma.png" alt="">
+          </div>
+          <div class="toll">
+            <img src="img/canva.png" alt="">
+          </div>
+          <div class="toll">
+            <img src="img/🦆 icon _adobexd_.png" alt="">
+          </div>
+          <div class="toll">
+            <img src="img/photoshop.png" alt="">
+          </div>
+        <!-- </div> -->
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container-fluid" id="Get in Touch">
+      <h2 class="contact">Get in Touch</h2>
+      <div class="row">
+        <div class="col-sm-5 con">
+          <h3>Contact info</h3>
+          <div class="row"><a href=""><i class="fa-brands fa-whatsapp cos"></i></a><p>+263775161797</p><br></div>
+          <div class="row"><a href=""><i class="fab fa-linkedin cos" aria-hidden="true"></i></a><p>Daniel kapofu</p></div>
+
+        </div>
+        <div class="col-sm-6 ">
+          <h3>Contact Me</h3>
+          <form action="https://mail.google.com/mail/u/0/#inbox">
+          <!-- <label for="fname">First Name</label> -->
+          <input type="text" id="fname" name="firstname" placeholder="first name..">
+      
+          <!-- <label for="lname">Last Name</label> -->
+          <input type="text" id="lname" name="lastname" placeholder="last name..">
+      
+          <!-- <label for="country">Country</label> -->
+          <select id="country" name="country">
+            <option value="zimbabwe">Zimbabwe</option>
+            <option value="australia">Australia</option>
+            <option value="botswana">Botswana</option>
+            <option value="canada">Canada</option>
+            <option value="south africa">South Africa</option>
+            <option value="united kingdom">UK</option>
+            <option value="usa">USA</option>
+            <option value="zambia">Zambia</option>
+          </select>
+      
+          <!-- <label for="subject">Subject</label> -->
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <div><input type="submit" value="Submit"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="foot">
+      <div class="row">
+        <div class="last">
+          <img src="img/Screen Shot 2023-03-21 at 08.58 1.png" alt="">
+        </div>
+        <h5 class="link"><a href="#Home">HOME</a></h5>
+        <h5 class="link"><a href="#About">About Me</a></h5>
+        <h5 class="link"><a href="#Services">Skills & Expertise</a></h5>
+        <h5 class="link"><a href="#Projects">Projects</a></h5>
+        <!-- <div class="cons"> -->
+          <a href="+263775161797"><i class="fa fa-phone-square cons" aria-hidden="true"></i></a>
+          <a href="gmail.com/dkapofu97@gmail.com"><i class="fa fa-envelope cons" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/dkapofu/"><i class="fa-brands fa-instagram cons"></i></a>
+        <!-- </div> -->
+      </div>
+    </div>
+    <!-- <hr> -->
+    <!-- <p>Done by DanielKapofu</p> -->
+  </footer>
+  <script src="/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
